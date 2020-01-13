@@ -34,13 +34,51 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+A Responsive website will respond to the size of the browser at any given point whatever the witdh is and a Adaptive website always adapt to the width of the browser at some breaking points.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+
+
+Mobile first is a design strategy or aproach also known as content first because the website content is structured based in order of importance. We usually do Mobile First when 
+
+*The number of hits from mobile is 80% and above or 50%, but the sales are higher on mobile devices
+
+*The user experience needs to be optimized for mobile and it’s enough to be merely functional on desktop
+
+*The site or interface has only a few core features
+
+*The service or product has a rather interactive nature (entertainment, lifestyle, networking, news etc.)
+
+Desktop first approach means designing for the highest specifications  and then going down to smaller resolutions (often called graceful degradation). A good choice if:
+
+*Both the number of visitors and the sales are higher on the desktop
+
+*The site or interface is quite feature-rich, e.g. productivity, office or business tools
+
+*The user experience needs to be highly refined on the desktop and it’s enough to be merely functional on mobile
+
+*Some patches are required for the existing product, but the time and budget are limited
+
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+
+
+It sets the our font size on the html into a percentage to define our rem value. 62.5% is the same as 16px which is also the standard for 1 rem unit.
+
+
+
 4. How would you describe preprocessing to someone new to CSS?
 
+CSS preprocessors will add extra features that don't exist in vanilla CSS, such as mixin, nesting selector, inheritance selector. These features are programed to ease the coding process or add new features to it.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+2 days ago was the nesting part, I solve it. 1 day ago nesting the media query in the specific selectors. Now these is my favorite part because it gave me a lot of headaches.
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
